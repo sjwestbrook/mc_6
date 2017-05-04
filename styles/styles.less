@@ -4,6 +4,8 @@
 @white: #ffffff;
 @grey: #414148;
 
+@mixin_bg_img()
+
 
 /* -------------- GLOBAL STYLES -------------- */
 
@@ -72,4 +74,30 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* -------------- VARIABLES -------------- */
+/* -------------- CARD STYLES -------------- */
+
+.work {
+  background: @grey;
+  padding: 5em 0;
+  .card {
+    background: @white;
+    border-radius: .35em;
+    height: 450px;
+    display: table;
+  }
+  .card_full {
+    width: 100%; 
+  }
+  .card_inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+  }
+  .pink {
+    background: rgba(230,56,22,.6); 
+  }
+}
+
+
+
