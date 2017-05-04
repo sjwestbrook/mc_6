@@ -1,1 +1,59 @@
-
+/* -------------- VARIABLES -------------- */
+/* -------------- GLOBAL STYLES -------------- */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 400;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:afer {
+  clear: both;
+}
+.wrapper {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* -------------- BANNER STYLES -------------- */
+.banner {
+  padding: 5em 0;
+}
+.banner .logo {
+  float: left;
+}
+.banner h1 {
+  color: #414148;
+  text-align: right;
+  font-size: 5em;
+  display: inline;
+  float: right;
+  margin: 0;
+}
+/* -------------- LOGO STYLES -------------- */
+.logo {
+  background: #ca48eb;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  /* centers the logo text text verically in the pink circle */
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.1em;
+  font-family: 'Inknut Antiqua', serif;
+}
