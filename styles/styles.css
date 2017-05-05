@@ -1,5 +1,10 @@
 /* -------------- VARIABLES & MIXINS -------------- */
 /* mixin with mulitple variables for card bg images */
+/* .bg_img(@url, @size, @position) {
+  background-image: url(@url);
+  background-size: @size;
+  background-position: @position;
+} */
 /* -------------- GLOBAL STYLES -------------- */
 * {
   box-sizing: border-box;
@@ -7,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   /*   -webkit-font-smoothing: antialiased; */
-  margin: 0;
+  /*   margin: 0; */
 }
 h1,
 h2,
@@ -76,7 +81,7 @@ h6 {
   width: 100%;
 }
 .work .card_1 {
-  background-image: url("/images/img1.jpg");
+  background-image: url(/images/img1.jpg);
   background-size: 100%;
   background-position: 100px 100px;
 }
