@@ -65,6 +65,18 @@ h6 {
   font-family: 'Inknut Antiqua', serif;
 }
 /* -------------- CARD STYLES -------------- */
+.row {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
 .work {
   background: #414148;
   padding: 5em 0;
@@ -80,17 +92,74 @@ h6 {
 .work .card_full {
   width: 100%;
 }
+.work .card_half {
+  width: 48.5%;
+  float: left;
+}
+.work .card_third {
+  width: 75%;
+  float: left;
+}
+.work .left {
+  margin-right: 1.5% ;
+}
+.work .right {
+  margin-left: 1.5%;
+}
+.work .tall {
+  height: 700px;
+}
 .work .card_1 {
-  background-image: url(./images/img1.jpg);
+  background-image: url("images/img1.jpg");
   background-size: 100%;
   background-position: 100px 100px;
+}
+.work .card_2 {
+  background-image: url("images/img2.jpg");
+  background-size: 100%;
+  background-position: -170px -205px;
+}
+.work .card_3 {
+  background-image: url("images/img3.jpg");
+  background-size: 100%;
+  background-position: 40px 160px;
+}
+.work .card_4 {
+  background-image: url("images/img4.jpg");
+  background-size: 100%;
+  background-position: 150px -160px;
 }
 .work .card_inner {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
   padding: 1.5em 12%;
+  color: #ffffff;
+}
+.work .card_inner p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.work .card_inner h2 {
+  font-size: 4em;
+  margin: 0;
+}
+.work .pink,
+.work .green,
+.work .purple,
+.work .blue {
+  border-radius: .35em;
 }
 .work .pink {
   background: rgba(230, 56, 222, 0.6);
+}
+.work .green {
+  background: rgba(80, 218, 93, 0.6);
+}
+.work .purple {
+  background: rgba(145, 89, 219, 0.6);
+}
+.work .blue {
+  background: rgba(131, 226, 245, 0.6);
 }
