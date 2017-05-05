@@ -11,8 +11,8 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  /*   -webkit-font-smoothing: antialiased; */
-  /*   margin: 0; */
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
 }
 h1,
 h2,
@@ -186,7 +186,7 @@ h6 {
 footer {
   padding: 3em 0;
   background-color: #ffffff;
-  margin-bottom: 2em;
+  margin-bottom: 3.5em;
 }
 footer .logo {
   float: left;
@@ -200,7 +200,7 @@ footer ul {
 footer ul li {
   display: inline;
   float: left;
-  margin-left: 4em;
+  margin-left: 10em;
 }
 footer ul li .title {
   text-transform: uppercase;
