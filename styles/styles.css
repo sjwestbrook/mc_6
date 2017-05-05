@@ -6,7 +6,8 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
+  /*   -webkit-font-smoothing: antialiased; */
+  /*   margin: 0; */
 }
 h1,
 h2,
@@ -19,7 +20,7 @@ h6 {
 }
 .cf:before,
 .cf:after {
-  content: " ";
+  content: "";
   display: table;
 }
 .cf:afer {
@@ -85,5 +86,5 @@ h6 {
   padding: 1.5em 12%;
 }
 .work .pink {
-  background: rgba(230, 56, 22, 0.6);
+  background: rgba(230, 56, 222, 0.6);
 }
