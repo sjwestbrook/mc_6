@@ -7,7 +7,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   /*   -webkit-font-smoothing: antialiased; */
-  /*   margin: 0; */
+  margin: 0;
 }
 h1,
 h2,
@@ -63,6 +63,7 @@ h6 {
 .work {
   background: #414148;
   padding: 5em 0;
+  margin-top: 18em;
 }
 .work .card {
   background: #ffffff;
