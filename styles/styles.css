@@ -1,4 +1,5 @@
-/* -------------- VARIABLES -------------- */
+/* -------------- VARIABLES & MIXINS -------------- */
+/* mixin with mulitple variables for card bg images */
 /* -------------- GLOBAL STYLES -------------- */
 * {
   box-sizing: border-box;
@@ -56,4 +57,32 @@ h6 {
   color: #ffffff;
   font-size: 1.1em;
   font-family: 'Inknut Antiqua', serif;
+}
+/* -------------- CARD STYLES -------------- */
+.work {
+  background: #414148;
+  padding: 5em 0;
+}
+.work .card {
+  background: #ffffff;
+  border-radius: .35em;
+  height: 450px;
+  display: table;
+}
+.work .card_full {
+  width: 100%;
+}
+.work .card_1 {
+  background-image: url("/images/img1.jpg");
+  background-size: 100%;
+  background-position: 100px 100px;
+}
+.work .card_inner {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  padding: 1.5em 12%;
+}
+.work .pink {
+  background: rgba(230, 56, 22, 0.6);
 }
