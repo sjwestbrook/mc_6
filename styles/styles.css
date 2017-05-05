@@ -175,11 +175,46 @@ h6 {
   line-height: 450px;
   /* link is vertically centered */
   margin: 0;
-  color: #9292ab;
+  color: rgba(146, 146, 171, 0.6);
 }
 .work .view_more a {
   text-decoration: none;
 }
 .work .view_more a:hover p {
+  color: #ca48eb;
+}
+footer {
+  padding: 3em 0;
+}
+footer .logo {
+  float: left;
+  margin: 0;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding-top: 1em;
+}
+footer ul li {
+  display: inline;
+  float: left;
+  margin-left: 4em;
+}
+footer ul li .titlte {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .75em;
+  display: block;
+  padding-bottom: .5em;
+}
+footer ul li .links {
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 1.75em;
+}
+footer ul li .links a {
+  text-decoration: none;
+  color: #414148;
+}
+footer ul li .links a:hover {
   color: #ca48eb;
 }
