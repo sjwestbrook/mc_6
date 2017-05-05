@@ -1,10 +1,15 @@
-/* -------------- VARIABLES -------------- */
+/* -------------- VARIABLES & MIXINS -------------- */
 
 @pink: #ca48eb;
 @white: #ffffff;
 @grey: #414148;
 
 /* mixin with mulitple variables for card bg images */
+.bg_img(@url, @size, @position) {
+  background-image: url(@url);
+  background-size: @size;
+  background-position: @position;
+}
 
 
 /* -------------- GLOBAL STYLES -------------- */
@@ -87,6 +92,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .card_full {
     width: 100%; 
+  }
+  .card_1 {
+    .bg_img("/images/img1.jpg", 100%, 100px 100px);
   }
   .card_inner {
     display: table-cell;
