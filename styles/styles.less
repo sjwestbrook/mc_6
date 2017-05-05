@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
       font-weight: 700;
       line-height: 450px;  /* link is vertically centered */
       margin: 0;
-      color: rgba(146, 146, 171, 1);
+      color: rgba(146, 146, 171, .6);
     }
     a {
       text-decoration: none;
@@ -194,6 +194,42 @@ h1, h2, h3, h4, h5, h6 {
         p {
           color: @pink; 
         }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 3em 0;
+  .logo {
+    float: left;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 1em;
+    li {
+      display: inline;
+      float: left;
+      margin-left: 4em;
+      .titlte {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .75em;
+        display: block;
+        padding-bottom: .5em;
+      }
+      .links {
+        font-family: 'Inknut Antiqua', serif;
+        font-size: 1.75em;
+        a {
+          text-decoration: none;
+          color: @grey;
+          &:hover {
+            color: @pink; 
+          }
+        }        
       }
     }
   }
