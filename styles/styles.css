@@ -163,3 +163,23 @@ h6 {
 .work .blue {
   background: rgba(131, 226, 245, 0.6);
 }
+.work .view_more {
+  width: 25%;
+  float: left;
+  height: 450px;
+  padding-left: 3em;
+}
+.work .view_more p {
+  font-size: 1.25em;
+  font-weight: 700;
+  line-height: 450px;
+  /* link is vertically centered */
+  margin: 0;
+  color: #9292ab;
+}
+.work .view_more a {
+  text-decoration: none;
+}
+.work .view_more a:hover p {
+  color: #ca48eb;
+}
