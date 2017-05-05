@@ -176,7 +176,27 @@ h1, h2, h3, h4, h5, h6 {
    .blue {
     background: rgba(131, 226, 245, .6);
   }
-  
+  .view_more {
+    width: 25%;
+    float: left;
+    height: 450px;
+    padding-left: 3em;
+    p {
+      font-size: 1.25em;
+      font-weight: 700;
+      line-height: 450px;  /* link is vertically centered */
+      margin: 0;
+      color: rgba(146, 146, 171, 1);
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        p {
+          color: @pink; 
+        }
+      }
+    }
+  }
 }
 
 
